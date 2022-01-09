@@ -122,7 +122,7 @@ main section:nth-of-type(even) div{
     margin-left: 1580px;
 }
 /* Hover even */
-main section:nth-of-type(even) a:hover{
+main section:nth-of-type(even):not(:nth-of-type(6)) a:hover{
     background-color: white;
     color: black;
 }
@@ -206,6 +206,10 @@ main section:nth-of-type(6) a{
     padding: 0px 0px 0px 540px;
     font-family: 'Work Sans', sans-serif;
 }
+/* Hover E-Mail */
+main section:nth-of-type(6) a:hover{
+    text-decoration: underline;
+}
 /* footer */
 footer{
     text-align: center;  
@@ -220,4 +224,8 @@ footer a{
 }
 footer div{
     margin-bottom: 200px;
+}
+/* Havor footer */
+footer a:hover{
+    text-decoration: underline;
 }
